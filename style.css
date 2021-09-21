@@ -1,0 +1,33 @@
+.btn{
+    width:50px;
+    min-width:50px; 
+    margin: 2px 2px 1px 2px;
+    font-weight: 500;
+  }
+  .btn:hover{
+      background-color: rgb(189, 188, 188);
+  }
+  .div-out{
+      box-shadow: gray;
+      border:5px solid rgb(158, 156, 156);
+      border-radius: 8px;
+      margin: 80px 0px 0px 500px;
+      background-color: white;
+  }
+  .container-inp input{
+    width: 290px;
+    height: 100px;
+    font-size: 30px;
+    text-align: right;
+  }
+  #list{
+      background-color: white;
+      text-align: right;
+  }
+  @media only screen and (max-width: 700px) {
+    .container{
+        padding: 100px 0px 0px 100px;
+    }
+  }
+  
+ 
